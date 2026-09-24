@@ -19,7 +19,7 @@ Run directly with zero install via `npx`:
   "mcpServers": {
     "upres": {
       "command": "npx",
-      "args": ["-y", "upres-cli", "mcp"],
+      "args": ["-y", "github:auroracapital/upres-cli", "mcp"],
       "env": {
         "UPRES_API_KEY": "your_api_key_here"
       }
@@ -53,4 +53,4 @@ The open-source CLI and MCP implementation is available at [github.com/auroracap
 
 ## Pricing
 
-Free tier includes 5 free upscales upon account creation. Paid plans start at $9/mo (Creator) and pay-as-you-go credit packs on [upres.ai](https://upres.ai).
+Free tier includes 5 free upscales per month upon account creation. Paid plans start at $9/mo (Creator) for standalone web usage. Full API access for programmatic workflows and MCP integrations is available on the Studio plan ($39/mo, 250 stills + 90 min 4K video) and Business plans. See live pricing and plan comparisons at [upres.ai/pricing](https://upres.ai/pricing).
